@@ -50,7 +50,7 @@ deletePersonHandler = (personIndex) => {
     }
 
     let persons = null;
-
+// Creating person component if there is state
     if (this.state){
       persons= (
         <div>
