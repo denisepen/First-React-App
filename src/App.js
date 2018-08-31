@@ -21,6 +21,7 @@ class App extends Component {
     ]})
   }
 
+// need to figure out how to change only a single name
 nameChangedHandler = (event) => {
   this.setState({persons: [
     {name: event.target.value, age: 88},
